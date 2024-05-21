@@ -1,0 +1,541 @@
+.contact-macbook-pro {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .contact-macbook-pro .contact-div {
+    background-color: #ffffff;
+    height: 2662px;
+    overflow: hidden;
+    position: relative;
+    width: 1512px;
+  }
+  
+  .contact-macbook-pro .contact-overlap {
+     background-image: url(/dist/img/contact.png); 
+    background-size: 100% 100%;
+    height: 306px;
+    left: 0;
+    position: absolute;
+    top: 297px;
+    width: 1512px;
+  }
+  
+  .contact-macbook-pro .contact-rectangle {
+    background-color: #6b6b6b91;
+    height: 306px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1512px;
+  }
+  
+  .contact-macbook-pro .contact-text-wrapper {
+    color: #ffffff;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 400;
+    left: 657px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 122px;
+    width: 197px;
+  }
+  
+  .contact-macbook-pro .contact-overlap-group {
+    background-color: #ffffff;
+    height: 203px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1512px;
+  }
+  
+  .contact-macbook-pro .contact-logoprosec {
+    height: 122px;
+    left: 612px;
+    object-fit: cover;
+    position: absolute;
+    top: 70px;
+    width: 289px;
+  }
+  
+  .contact-macbook-pro .contact-overlap-2 {
+    background-color: #001d6eb2;
+    height: 94px;
+    left: 0;
+    position: absolute;
+    top: 203px;
+    width: 1512px;
+  }
+  
+  .contact-macbook-pro .contact-text-wrapper-2 {
+    color: #ffffff;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    left: 324px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 30px;
+    width: 139px;
+  }
+  
+  .contact-macbook-pro .contact-text-wrapper-3 {
+    color: #ffffff;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    left: 500px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 30px;
+    width: 176px;
+  }
+  
+  .contact-macbook-pro .contact-text-wrapper-4 {
+    color: #ffffff;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    left: 713px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 30px;
+    width: 286px;
+  }
+  
+  .contact-macbook-pro .contact-group {
+    height: 53px;
+    left: 1025px;
+    position: absolute;
+    top: 21px;
+    width: 165px;
+  }
+  
+  .contact-macbook-pro .contact-overlap-group-2 {
+    height: 53px;
+    position: relative;
+    width: 163px;
+  }
+  
+  .contact-macbook-pro .contact-rectangle-2 {
+    border: 1.5px solid;
+    border-color: #ffffff;
+    border-radius: 30px;
+    height: 53px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 144px;
+  }
+  
+  .contact-macbook-pro .contact-text-wrapper-5 {
+    color: #ffffff;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 11px;
+    width: 139px;
+  }
+  
+  .contact-macbook-pro .contact-overlap-3 {
+    background-color: #001d6e;
+    border-radius: 20px;
+    height: 1323px;
+    left: 102px;
+    position: absolute;
+    top: 705px;
+    width: 1307px;
+  }
+  
+  .contact-macbook-pro .contact-rectangle-3 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 63px;
+    left: 123px;
+    position: absolute;
+    top: 262px;
+    width: 518px;
+  }
+  
+  .contact-macbook-pro .contact-rectangle-4 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 63px;
+    left: 666px;
+    position: absolute;
+    top: 262px;
+    width: 518px;
+  }
+  
+  .contact-macbook-pro .contact-nom {
+    color: transparent;
+    font-family: "FutoSans-Bold-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 138px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 211px;
+    width: 433px;
+  }
+  
+  .contact-macbook-pro .contact-span {
+    color: #ffffff;
+  }
+  
+  .contact-macbook-pro .contact-text-wrapper-6 {
+    color: #e6001f;
+  }
+  
+  .contact-macbook-pro .contact-rectangle-5 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 63px;
+    left: 123px;
+    position: absolute;
+    top: 403px;
+    width: 1061px;
+  }
+  
+  .contact-macbook-pro .contact-e-mail {
+    color: transparent;
+    font-family: "FutoSans-Bold-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 138px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 352px;
+    width: 433px;
+  }
+  
+  .contact-macbook-pro .contact-rectangle-6 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 63px;
+    left: 123px;
+    position: absolute;
+    top: 545px;
+    width: 1061px;
+  }
+  
+  .contact-macbook-pro .contact-confirmation-e-mail {
+    color: transparent;
+    font-family: "FutoSans-Bold-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 138px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 494px;
+    width: 433px;
+  }
+  
+  .contact-macbook-pro .contact-rectangle-7 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 63px;
+    left: 123px;
+    position: absolute;
+    top: 688px;
+    width: 1061px;
+  }
+  
+  .contact-macbook-pro .contact-num-ro-de-t-l-phone {
+    color: transparent;
+    font-family: "FutoSans-Bold-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 138px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 637px;
+    width: 433px;
+  }
+  
+  .contact-macbook-pro .contact-rectangle-8 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 188px;
+    left: 123px;
+    position: absolute;
+    top: 834px;
+    width: 1061px;
+  }
+  
+  .contact-macbook-pro .contact-text-wrapper-7 {
+    color: #ffffff;
+    font-family: "FutoSans-Bold-☞", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 138px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 783px;
+    width: 433px;
+  }
+  
+  .contact-macbook-pro .contact-div-wrapper {
+    background-color: #e6001f;
+    border-radius: 20px;
+    height: 65px;
+    left: 537px;
+    position: absolute;
+    top: 1088px;
+    width: 234px;
+  }
+  
+  .contact-macbook-pro .contact-text-wrapper-8 {
+    color: #ffffff;
+    font-family: "FutoSans-Bold-☞", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 65px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 18px;
+    width: 128px;
+    cursor: pointer;
+  }
+  
+  .contact-macbook-pro .contact-pr-nom {
+    color: transparent;
+    font-family: "FutoSans-Bold-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 680px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 211px;
+    width: 433px;
+  }
+  
+  .contact-macbook-pro .contact-besoin-d-aide-ou-d {
+    color: #ffffff;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: 400;
+    left: 36px;
+    letter-spacing: 0;
+    line-height: 39.9px;
+    position: absolute;
+    text-align: center;
+    top: 65px;
+    width: 1235px;
+  }
+  
+  .contact-macbook-pro .contact-overlap-4 {
+    height: 458px;
+    left: 0;
+    position: absolute;
+    top: 2199px;
+    width: 1533px;
+  }
+  
+  .contact-macbook-pro .contact-rectangle-9 {
+    background-color: #001d6e;
+    height: 458px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1512px;
+  }
+  
+  .contact-macbook-pro .contact-rectangle-10 {
+    background-color: #ffffff;
+    border-radius: 0px 20px 20px 0px;
+    height: 271px;
+    left: 0;
+    position: absolute;
+    top: 102px;
+    width: 401px;
+  }
+  
+  .contact-macbook-pro .contact-text-wrapper-9 {
+    color: #ffffff;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    left: 568px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 74px;
+    width: 434px;
+  }
+  
+  .contact-macbook-pro .contact-frame {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 26px;
+    left: 1099px;
+    position: absolute;
+    top: 109px;
+  }
+  
+  .contact-macbook-pro .contact-text-wrapper-10 {
+    color: #ffffff;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    height: 34px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 434px;
+  }
+  
+  .contact-macbook-pro .contact-text-wrapper-11 {
+    color: #ffffff;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    height: 34px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 434px;
+  }
+  
+  .contact-macbook-pro .contact-text-wrapper-12 {
+    color: #ffffff;
+    font-family: "FutoSans-Bold-☞", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 600px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 128px;
+    width: 263px;
+  }
+  
+  .contact-macbook-pro .contact-text-wrapper-13 {
+    color: #ffffff;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    left: 568px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 266px;
+    width: 434px;
+  }
+  
+  .contact-macbook-pro .contact-text-wrapper-14 {
+    color: #ffffff;
+    font-family: "FutoSans-Bold-☞", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 603px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 320px;
+    width: 289px;
+  }
+  
+  .contact-macbook-pro .contact-p {
+    color: #ffffff;
+    font-family: "FutoSans-Bold-☞", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 611px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 370px;
+    width: 384px;
+  }
+  
+  .contact-macbook-pro .contact-text-wrapper-15 {
+    color: #ffffff;
+    font-family: "FutoSans-Bold-☞", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 601px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 169px;
+    width: 165px;
+  }
+  
+  .contact-macbook-pro .contact-noun-location {
+    height: 41px;
+    left: 567px;
+    position: absolute;
+    top: 360px;
+    width: 33px;
+  }
+  
+  .contact-macbook-pro .contact-vector {
+    height: 25px;
+    left: 573px;
+    position: absolute;
+    top: 316px;
+    width: 25px;
+  }
+  
+  .contact-macbook-pro .contact-noun-phone {
+    height: 25px;
+    left: 573px;
+    position: absolute;
+    top: 170px;
+    width: 20px;
+  }
+  
+  .contact-macbook-pro .contact-noun-email {
+    height: 35px;
+    left: 569px;
+    position: absolute;
+    top: 125px;
+    width: 29px;
+  }
+  
+  .contact-macbook-pro .contact-element {
+    height: 122px;
+    left: 67px;
+    object-fit: cover;
+    position: absolute;
+    top: 167px;
+    width: 244px;
+  }
+  

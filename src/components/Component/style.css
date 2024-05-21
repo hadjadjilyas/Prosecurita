@@ -1,0 +1,85 @@
+.component {
+  height: 120px;
+  width: 1219px;
+}
+
+.component .frame {
+  align-items: center;
+  display: flex;
+  gap: 100px;
+  position: relative;
+}
+
+.component .frame img {
+  height: auto;
+  max-height: 100%;
+  max-width: none;
+}
+
+.component .lyc-e-bascan {
+  height: 87px;
+  position: relative;
+}
+
+.component .logo-STEF,
+.component .logo-STEF-2 {
+  height: 40px;
+  object-fit: cover;
+  position: relative;
+  width: 174.85px;
+}
+
+.component .logo-rabot,
+.component .logo-rabot-2 {
+  height: 50px;
+  object-fit: cover;
+  position: relative;
+  width: 168.5px;
+}
+
+.component .credit-agricole-logo,
+.component .credit-agricole-logo-2 {
+  height: 100px;
+  object-fit: cover;
+  position: relative;
+  width: 177.78px;
+}
+
+.component .logo-gerim,
+.component .logo-gerim-2 {
+  height: 80px;
+  object-fit: cover;
+  position: relative;
+  width: 216.76px;
+}
+
+.component .logo-trapil,
+.component .logo-trapil-2 {
+  height: 120px;
+  object-fit: cover;
+  position: relative;
+  width: 114.77px;
+}
+
+.component .lev,
+.component .lev-2 {
+  height: 40px;
+  object-fit: cover;
+  position: relative;
+  width: 277.65px;
+}
+
+/* Animation de défilement */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Appliquer l'animation au conteneur */
+.component .frame {
+  animation: scroll 15s linear infinite;
+}
