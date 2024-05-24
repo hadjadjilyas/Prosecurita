@@ -89,8 +89,9 @@ export const MacbookPro = () => {
               <span className="text-wrapper-14">Pro</span>
               <span className="text-wrapper-15">securita </span>
               <span className="text-wrapper-13">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
               </span>
+              <br />
               <span className="span">votre partenaire de confiance</span>
             </p>
             <div className="div-wrapper">

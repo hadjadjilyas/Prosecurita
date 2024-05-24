@@ -11,7 +11,7 @@
     height: 5337px;
     overflow: hidden;
     position: relative;
-    width: 1512px;
+    width: 100%;
   }
   
   .prest-macbook-pro .prest-overlap {
@@ -20,7 +20,7 @@
     left: 0;
     position: absolute;
     top: 0;
-    width: 1512px;
+    width: 100%;
   }
   
   .prest-macbook-pro .prest-logoprosec {
@@ -37,7 +37,7 @@
     left: 0;
     position: absolute;
     top: 203px;
-    width: 1512px;
+    width: 100%;
   }
   
   .prest-macbook-pro .prest-rectangle {
@@ -46,7 +46,7 @@
     left: 0;
     position: absolute;
     top: 0;
-    width: 1512px;
+    width: 100%;
   }
   
   .prest-macbook-pro .prest-text-wrapper {
@@ -55,7 +55,7 @@
     font-size: 25px;
     font-style: italic;
     font-weight: 400;
-    left: 323px;
+    left: 10%;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -69,7 +69,7 @@
     font-size: 25px;
     font-style: italic;
     font-weight: 400;
-    left: 500px;
+    left: 30%;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -83,7 +83,7 @@
     font-size: 25px;
     font-style: italic;
     font-weight: 400;
-    left: 713px;
+    left: 50%;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -107,7 +107,7 @@
   
   .prest-macbook-pro .prest-group {
     height: 53px;
-    left: 1025px;
+    left: 80%;
     position: absolute;
     top: 21px;
     width: 165px;
@@ -149,7 +149,7 @@
     left: 0;
     position: absolute;
     top: 93px;
-    width: 1512px;
+    width: 100%;
   }
   
   .prest-macbook-pro .prest-rectangle-3 {
@@ -158,22 +158,23 @@
     left: 0;
     position: absolute;
     top: 93px;
-    width: 1512px;
+    width: 100%;
   }
   
   .prest-macbook-pro .prest-text-wrapper-6 {
     color: #ffffff;
-    font-family: "FutoSans-BoldItalic-☞", Helvetica;
-    font-size: 50px;
-    font-style: italic;
-    font-weight: 400;
-    left: 553px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 215px;
-    width: 406px;
+  font-family: "FutoSans-BoldItalic-☞", Helvetica;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 215px;
+  width: 406px;
+  left: 50%; /* Centre l'élément horizontalement */
+  transform: translateX(-50%);
   }
   
   .prest-macbook-pro .prest-text-wrapper-7 {
@@ -206,7 +207,7 @@
   
   .prest-macbook-pro .prest-portrait-pompier {
     height: 388px;
-    left: 872px;
+    left: 60%;
     object-fit: cover;
     position: absolute;
     top: 793px;
@@ -266,7 +267,7 @@
   
   .prest-macbook-pro .prest-img {
     height: 388px;
-    left: 872px;
+    left: 60%;
     object-fit: cover;
     position: absolute;
     top: 1468px;
@@ -288,7 +289,7 @@
   
   .prest-macbook-pro .prest-img-2 {
     height: 388px;
-    left: 872px;
+    left: 60%;
     position: absolute;
     top: 2195px;
     width: 552px;
@@ -380,7 +381,7 @@
   
   .prest-macbook-pro .prest-agent-de-securite {
     height: 388px;
-    left: 876px;
+    left: 60%;
     object-fit: cover;
     position: absolute;
     top: 4285px;
@@ -389,7 +390,7 @@
 
   .prest-macbook-pro .prest-agent-de-securite-chien {
     height: 388px;
-    left: 876px;
+    left: 60%;
     object-fit: cover;
     position: absolute;
     top: 3583px;
@@ -398,7 +399,7 @@
   
   .prest-macbook-pro .prest-securitecontrole {
     height: 388px;
-    left: 872px;
+    left: 60%;
     object-fit: cover;
     position: absolute;
     top: 2810px;
@@ -410,7 +411,7 @@
     left: 0;
     position: absolute;
     top: 4875px;
-    width: 1533px;
+    width: 100%;
   }
   
   .prest-macbook-pro .prest-rectangle-4 {
@@ -419,7 +420,7 @@
     left: 0;
     position: absolute;
     top: 0;
-    width: 1512px;
+    width: 100%;
   }
   
   .prest-macbook-pro .prest-rectangle-5 {

@@ -11,7 +11,7 @@
     height: 5603px;
     overflow: hidden;
     position: relative;
-    width: 1512px;
+    width:100%;
   }
   
   .custom-macbook-pro .custom-overlap {
@@ -19,7 +19,7 @@
     left: 0;
     position: absolute;
     top: 203px;
-    width: 1512px;
+    width: 100%;
   }
   
   .custom-macbook-pro .custom-img {
@@ -27,7 +27,7 @@
     left: 0;
     position: absolute;
     top: 0;
-    width: 1512px;
+    width: 100%;
   }
   
   .custom-macbook-pro .custom-rectangle {
@@ -36,7 +36,7 @@
     left: 0;
     position: absolute;
     top: 0;
-    width: 1512px;
+    width: 100%;
   }
   
   .custom-macbook-pro .custom-text-wrapper {
@@ -44,7 +44,7 @@
     font-family: "Inter", Helvetica;
     font-size: 25px;
     font-weight: 500;
-    left: 324px;
+    left: 10%;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -57,7 +57,7 @@
     font-family: "Inter", Helvetica;
     font-size: 25px;
     font-weight: 500;
-    left: 500px;
+    left: 30%;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -70,7 +70,7 @@
     font-family: "Inter", Helvetica;
     font-size: 25px;
     font-weight: 500;
-    left: 713px;
+    left: 50%;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -93,7 +93,7 @@
   
   .custom-macbook-pro .custom-group {
     height: 53px;
-    left: 1025px;
+    left: 80%;
     position: absolute;
     top: 21px;
     width: 165px;
@@ -135,7 +135,7 @@
     left: 0;
     position: absolute;
     top: 94px;
-    width: 1512px;
+    width: 100%;
   }
   
   .custom-macbook-pro .custom-text-wrapper-6 {
@@ -143,13 +143,15 @@
     font-family: "Inter", Helvetica;
     font-size: 40px;
     font-weight: 700;
-    left: 506px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
     top: 222px;
     width: 499px;
+    left: 50%; /* Centre l'élément horizontalement */
+    transform: translateX(-50%); /* Ajuste la position horizontale pour centrer */
+    box-sizing: border-box;
   }
   
   .custom-macbook-pro .custom-logoprosec-wrapper {
@@ -186,7 +188,7 @@
   
   .custom-macbook-pro .custom-pexels-expect-best {
     height: 380px;
-    left: 877px;
+    left: 60%;
     object-fit: cover;
     position: absolute;
     top: 742px;
@@ -366,7 +368,7 @@
   
   .custom-macbook-pro .custom-arton {
     height: 380px;
-    left: 53px;
+    left: 3%;
     object-fit: cover;
     position: absolute;
     top: 1277px;
@@ -375,7 +377,7 @@
   
   .custom-macbook-pro .custom-stairs {
     height: 380px;
-    left: 888px;
+    left: 60%;
     object-fit: cover;
     position: absolute;
     top: 2025px;
@@ -383,7 +385,7 @@
   }
   .custom-macbook-pro .custom-hopital {
     height: 380px;
-    left: 888px;
+    left: 60%;
     object-fit: cover;
     position: absolute;
     top: 4435px;
@@ -391,7 +393,7 @@
   }
   .custom-macbook-pro .custom-adobestock {
     height: 380px;
-    left: 52px;
+    left: 3%;
     object-fit: cover;
     position: absolute;
     top: 2724px;
@@ -400,7 +402,7 @@
 
   .custom-macbook-pro .custom-adobestocktrans {
     height: 380px;
-    left: 52px;
+    left: 3%;
     object-fit: cover;
     position: absolute;
     top: 3907px;
@@ -450,7 +452,7 @@
   
   .custom-macbook-pro .custom-adobestock-2 {
     height: 380px;
-    left: 888px;
+    left: 60%;
     object-fit: cover;
     position: absolute;
     top: 3312px;
@@ -882,7 +884,7 @@
     left: 0;
     position: absolute;
     top: 5145px;
-    width: 1515px;
+    width: 100%;
   }
 
   .custom-rectangle-10 {
@@ -891,7 +893,7 @@
     left: 0;
     position: absolute;
     top: 0;
-    width: 1512px;
+    width: 100%;
   }
   
    .custom-rectangle-11 {

@@ -35,9 +35,5 @@
     "parcel-reporter-static-files-copy": "^1.5.3",
     "process": "^0.11.10",
     "storybook": "7.0.3"
-  },
-  "staticFiles": {
-    "staticPath": "src/assets/img",
-    "staticOutPath": "dist/img"
   }
 }
