@@ -150,7 +150,7 @@ export const Expertise = () => {
           <img className="custom-adobestock" alt="Pexels expect best" src="/img/transport.png" />
           <img className="custom-stairs" alt="Pexels expect best" src="/img/retail.png" />
           <img className="custom-arton" alt="Pexels expect best" src="/img/hôtel.png" />
-          <img className="custom-hopital" alt="Pexels expect best" src="/img/hopital.png" />
+          <img className="custom-hopital" alt="Pexels expect best" src="/img/hopital-1.png" />
           <img className="custom-adobestocktrans" alt="Pexels expect best" src="/img/industrie.png" />
           
         </div>
@@ -158,7 +158,7 @@ export const Expertise = () => {
       <div className="custom-overlap-7">
         <div className="custom-rectangle-10" />
         <div className="custom-rectangle-11" />
-        <img className="macbook-prologoprosec-2" alt="Logoprosec" src="/img/logoprosec-2.png" />
+        <img className="macbook-prologoprosec-2" alt="Logoprosec" src="/img/logoprosec-1.png" />
         <div className="custom-text-wrapper-24">Contact</div>
         <div className="custom-frame-4">
           <div className="custom-text-wrapper-25">À propos de nous</div>
