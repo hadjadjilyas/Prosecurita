@@ -1,5 +1,6 @@
 import React from "react";
 import "./styleperst.css";
+import { HashLink } from "react-router-hash-link";
 
 export const Prestation = () => {
     
@@ -11,16 +12,16 @@ export const Prestation = () => {
         </div>
         <div className="prest-overlap-group">
           <div className="prest-rectangle" />
-          <div className="prest-text-wrapper">À propos</div>
-          <div className="prest-text-wrapper-2">Nos métiers</div>
-          <div className="prest-text-wrapper-3">Secteurs d’expértise</div>
+          <HashLink to="/" className="prest-text-wrapper">À propos</HashLink >
+          <HashLink to="/prestation" className="prest-text-wrapper-2">Nos métiers</HashLink >
+          <HashLink to="/expertise" className="prest-text-wrapper-3">Secteurs d’expértise</HashLink >
           {/* <div className="prest-text-wrapper-4">Candidature</div> */}
-          <div className="prest-group">
+          <HashLink to="/contact" className="prest-group">
             <div className="prest-overlap-group-2">
               <div className="prest-rectangle-2" />
               <div className="prest-text-wrapper-5">Contact</div>
             </div>
-          </div>
+          </HashLink>
           <img className="prest-adobestock" alt="Adobestock" src="/img/prestations.png" />
           <div className="prest-rectangle-3" />
           <div className="prest-text-wrapper-6">Nos prestations</div>

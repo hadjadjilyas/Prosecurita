@@ -59,7 +59,7 @@ export const Component = ({
           alt="Logo trapil"
           src={property1 === "frame-3" ? "/img/lev-2-1.png" : "/img/lev 1.png"}
         />
-        <img className={`logo-trapil ${logoTrapilClassName}`} alt="Logo trapil" src="/img/logo-trapil 1.png" />
+        {/* <img className={`logo-trapil ${logoTrapilClassName}`} alt="Logo trapil" src="/img/logo-trapil 1.png" /> */}
         <img className={`lev ${levClassName}`} alt="Lev" src="/img/lev-2-1.png" />
         <img
           className={`img ${lycEBascanClassName}`}
@@ -86,7 +86,7 @@ export const Component = ({
           alt="Logo gerim"
           src={property1 === "frame-3" ? "/img/logo-gerim-2-1.png" : "/img/lev-2-1.png"}
         />
-        <img className={`logo-trapil-2 ${logoTrapilClassNameOverride}`} alt="Logo trapil" src="/img/logo-trapil 1.png" />
+        {/* <img className={`logo-trapil-2 ${logoTrapilClassNameOverride}`} alt="Logo trapil" src="/img/logo-trapil 1.png" /> */}
         <img className={`lev-2 ${levClassNameOverride}`} alt="Lev" src="/img/lev-2-1.png" />
       </div>
     </div>

@@ -21,15 +21,17 @@
     position: absolute;
     top: 0;
     width: 100%;
+    position: relative;
   }
   
   .prest-macbook-pro .prest-logoprosec {
-    height: 122px;
-    left: 612px;
-    object-fit: cover;
     position: absolute;
     top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    object-fit: cover;
     width: 289px;
+    height: 122px;
   }
   
   .prest-macbook-pro .prest-overlap-group {

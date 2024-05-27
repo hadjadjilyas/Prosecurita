@@ -1,6 +1,7 @@
 import React from "react";
 import "./styleexp.css";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export const Expertise = () => {
   return (
@@ -10,16 +11,16 @@ export const Expertise = () => {
           <div className="custom-overlap">
             <img className="custom-img" alt="Img" src="/img/secteurexp.png" />
             <div className="custom-rectangle" />
-            <Link className="custom-text-wrapper">À propos</Link>
-            <Link className="custom-text-wrapper-2">Nos métiers</Link>
-            <Link className="custom-text-wrapper-3">Secteurs d’expértise</Link>
+            <HashLink to="/" className="custom-text-wrapper">À propos</HashLink>
+            <HashLink to="/prestation" className="custom-text-wrapper-2">Nos métiers</HashLink>
+            <HashLink to="/expertise" className="custom-text-wrapper-3">Secteurs d’expértise</HashLink>
             {/* <Link className="custom-text-wrapper-4">Candidature</Link> */}
-            <div className="custom-group">
+            <HashLink to="/contact" className="custom-group">
               <div className="custom-overlap-group">
                 <div className="custom-rectangle-2" />
-                <Link className="custom-text-wrapper-5">Contact</Link>
+                <div className="custom-text-wrapper-5">Contact</div>
               </div>
-            </div>
+            </HashLink>
             <div className="custom-rectangle-3" />
             <div className="custom-text-wrapper-6">Nos secteurs d’expertise</div>
           </div>
@@ -32,11 +33,10 @@ export const Expertise = () => {
             Prosecurita, spécialiste en sécurité, se concentre sur la protection incendie et la surveillance des sièges
             sociaux des entreprises. Afin de s’aligner parfaitement sur les besoins de ses clients, Prosecurita mène une
             évaluation exhaustive des risques et des missions avant de fournir ses services. L’objectif est double :
-            garantir la sécurité des sites et optimiser&nbsp;&nbsp;l’allocation budgétaire qui leur est dédiée. <br />
+            garantir la sécurité des sites et optimiserl’allocation budgétaire qui leur est dédiée. <br />
             Prosecurita assure une protection complète des locaux, des employés et des parkings, au besoin, en mettant en
             place du personnel de surveillance ou de sécurité incendie (SSIAP).
           </p>
-          <img className="" alt="Pexels expect best" src="/img/siege.png" />
           <p className="custom-prosecurita-assure">
             Prosecurita assure la sécurisation des centres de logistique, des chaînes de distribution, des installations
             portuaires et des transports en commun, tels que les rames de métro, les autobus et les trains. <br />
@@ -50,7 +50,7 @@ export const Expertise = () => {
             l’utilisation de chiens.
           </p>
           <div className="custom-text-wrapper-8">Retail</div>
-          <img   alt="Pexels expect best" src="/img/hotel.png" />
+          {/* <img   alt="Pexels expect best" src="/img/hotel.png" /> */}
           <div className="custom-text-wrapper-9">Transports et logistiques</div>
           <p className="custom-prosecurita-propose">
             Prosecurita propose des agents hautement qualifiés et expérimentés pour garantir la sécurité des clients et du
@@ -92,22 +92,22 @@ export const Expertise = () => {
             La sécurisation du site de l’événement, de ses abords et des zones sensibles. <br />
             La gestion des flux de personnes, des files d’attente et des points d’accès.
           </p> */}
-          <p className="custom-la-protection-de-vip">
+          {/* <p className="custom-la-protection-de-vip">
             La protection de VIP et de personnalités, y compris les escortes et la mise en place de zones VIP privatisées.{" "}
             <br />
             La surveillance des installations techniques telles que les régies, les équipements audiovisuels et les
             installations de sonorisation.
-          </p>
-          <p className="custom-la-gestion-des">
+          </p> */}
+          {/* <p className="custom-la-gestion-des">
             La gestion des situations de crise et la coordination avec les autorités locales et les services de secours en
             cas d’incident.
-          </p>
-          <p className="custom-prosecurita-s-engage">
+          </p> */}
+          {/* <p className="custom-prosecurita-s-engage">
             Prosecurita s’engage à fournir des solutions de sécurité intégrées et personnalisées qui répondent aux besoins
             spécifiques de chaque client, tout en respectant les réglementations et normes en vigueur. Nous proposons une
             gamme complète de services, allant de la prévention à la surveillance, en passant par l’intervention et la
             gestion de crise. Nos domaines d’expertise incluent :
-          </p>
+          </p> */}
           <p className="custom-prosecurita-s-engage"/>
             <p className="custom-prosecurita-immo">
             Prosecurita est le partenaire de sécurité privilégié pour de nombreuses entreprises gérant

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import "./stylecontact.css";
+import { HashLink } from "react-router-hash-link";
 
 export const Contact = () => {
   const [name, setName] = useState("");
@@ -44,15 +45,15 @@ export const Contact = () => {
           <img className="contact-logoprosec" alt="Logoprosec" src="/img/logoprosec.png" />
         </div>
         <div className="contact-overlap-2">
-          <div className="contact-text-wrapper-2">À propos</div>
-          <div className="contact-text-wrapper-3">Nos métiers</div>
-          <div className="contact-text-wrapper-4">Secteurs d’expertise</div>
-          <div className="contact-group">
+          <HashLink to="/" className="contact-text-wrapper-2">À propos</HashLink>
+          <HashLink to="/prestation" className="contact-text-wrapper-3">Nos métiers</HashLink>
+          <HashLink to="/expertise" className="contact-text-wrapper-4">Secteurs d’expertise</HashLink>
+          <HashLink to="/contact" className="contact-group">
             <div className="contact-overlap-group-2">
               <div className="contact-rectangle-2" />
               <div className="contact-text-wrapper-5">Contact</div>
             </div>
-          </div>
+          </HashLink>
         </div>
         
         <div className="contact-overlap-3">

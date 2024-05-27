@@ -51,21 +51,20 @@
 
 .contact-macbook-pro .contact-overlap-group {
   background-color: #ffffff;
-  height: 203px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 1512px;
+  height: 100vh; /* Utilisation de la hauteur de l'écran */
+  display: flex; /* Utilisation de flexbox */
+  justify-content: center; /* Centrage horizontal */
+  align-items: center; /* Centrage vertical */
 }
 
 .contact-macbook-pro .contact-logoprosec {
-  height: 122px;
-  left: 50%;
-  object-fit: cover;
   position: absolute;
-  top: 50%;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
   width: 289px;
-  transform: translate(-50%, -50%);
+  height: 122px;
 }
 
 .contact-macbook-pro .contact-overlap-2 {

@@ -58,8 +58,11 @@ export const MacbookPro = () => {
           <img className="agent-de-securite" alt="Agent de securite" src="/img/agent-de-securite-1.png" />
           <div className="rectangle-7" />
           <HashLink to="/prestation#filtrage" className="text-wrapper-6">Agent de sécurité filtrage</HashLink>
-          <img className="securitecontrole" alt="Securitecontrole" src="/img/securitecontrole-1024x683-1.png" />
+          
           <div className="rectangle-8" />
+          <HashLink to="/prestation#filtrage" className="text-wrapper-6">Agent de sécurité filtrage</HashLink>
+          
+          <img className="securitecontrole" alt="Securitecontrole" src="/img/securitecontrole-1024x683-1.png" />
           <HashLink to="/prestation#cynophile" className="text-wrapper-7">Agent de sécurité cynophile</HashLink>
           <img className="img-4" alt="Img" src="/img/f3402f70a83abdbb14374b8794cfba31-1.png" />
         </div>

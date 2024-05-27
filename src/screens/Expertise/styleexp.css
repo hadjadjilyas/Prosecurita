@@ -41,7 +41,7 @@
   
   .custom-macbook-pro .custom-text-wrapper {
     color: #ffffff;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 25px;
     font-weight: 500;
     left: 10%;
@@ -54,7 +54,7 @@
   
   .custom-macbook-pro .custom-text-wrapper-2 {
     color: #ffffff;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 25px;
     font-weight: 500;
     left: 30%;
@@ -67,7 +67,7 @@
   
   .custom-macbook-pro .custom-text-wrapper-3 {
     color: #ffffff;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 25px;
     font-weight: 500;
     left: 50%;
@@ -80,7 +80,7 @@
   
   .custom-macbook-pro .custom-text-wrapper-4 {
     color: #ffffff;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 25px;
     font-weight: 500;
     left: 713px;
@@ -118,7 +118,7 @@
   
   .custom-macbook-pro .custom-text-wrapper-5 {
     color: #ffffff;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 25px;
     font-weight: 500;
     left: 25px;
@@ -140,7 +140,8 @@
   
   .custom-macbook-pro .custom-text-wrapper-6 {
     color: #ffffff;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica, sans-serif;
+
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 0;
@@ -156,25 +157,25 @@
   
   .custom-macbook-pro .custom-logoprosec-wrapper {
     background-color: #ffffff;
-    height: 203px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 1512px;
+    height: 100vh; /* Utilisation de la hauteur de l'écran */
+    display: flex; /* Utilisation de flexbox */
+    justify-content: center; /* Centrage horizontal */
+    align-items: center; /* Centrage vertical */
   }
   
   .custom-macbook-pro .custom-logoprosec {
-    height: 122px;
-    left: 612px;
-    object-fit: cover;
     position: absolute;
     top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    object-fit: cover;
     width: 289px;
+    height: 122px;
   }
   
   .custom-macbook-pro .custom-text-wrapper-7 {
     color: #001d6e;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 32px;
     font-weight: 700;
     left: 53px;
@@ -197,7 +198,7 @@
   
   .custom-macbook-pro .custom-prosecurita-sp {
     color: #000000;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-Bold-☞", Helvetica;
     font-size: 20px;
     font-weight: 400;
     left: 53px;
@@ -210,7 +211,7 @@
   
   .custom-macbook-pro .custom-prosecurita-assure {
     color: #000000;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 20px;
     font-weight: 400;
     left: 658px;
@@ -223,7 +224,7 @@
 
   .custom-macbook-pro .custom-prosecurita-industrie {
     color: #000000;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 20px;
     font-weight: 400;
     left: 658px;
@@ -236,7 +237,7 @@
   
   .custom-macbook-pro .custom-p {
     color: #000000;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 20px;
     font-weight: 400;
     left: 656px;
@@ -249,7 +250,7 @@
   
   .custom-macbook-pro .custom-text-wrapper-8 {
     color: #001d6e;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 32px;
     font-weight: 700;
     left: 53px;
@@ -263,7 +264,7 @@
   
   .custom-macbook-pro .custom-text-wrapper-9 {
     color: #001d6e;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 32px;
     font-weight: 700;
     left: 53px;
@@ -277,7 +278,7 @@
   
   .custom-macbook-pro .custom-prosecurita-propose {
     color: #000000;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 20px;
     font-weight: 400;
     left: 53px;
@@ -290,7 +291,7 @@
   
   .custom-macbook-pro .custom-prosecurita-immo {
     color: #000000;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 20px;
     font-weight: 400;
     left: 53px;
@@ -303,7 +304,7 @@
 
   .custom-macbook-pro .custom-prosecurita-hopital {
     color: #000000;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 20px;
     font-weight: 400;
     left: 53px;
@@ -315,7 +316,7 @@
   }
   .custom-macbook-pro .custom-tre-form-s-pour {
     color: #000000;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 20px;
     font-weight: 400;
     left: 53px;
@@ -328,7 +329,7 @@
   
   .custom-macbook-pro .custom-text-wrapper-10 {
     color: #001d6e;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 32px;
     font-weight: 700;
     left: 53px;
@@ -342,7 +343,7 @@
   
   .custom-macbook-pro .custom-la-r-putation-d-un-h {
     color: #000000;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 20px;
     font-weight: 400;
     left: 656px;
@@ -355,7 +356,7 @@
   
   .custom-macbook-pro .custom-elles-doivent {
     color: #000000;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 20px;
     font-weight: 400;
     left: 53px;
@@ -411,7 +412,7 @@
   
   .custom-macbook-pro .custom-prosecurita-est-le {
     color: #000000;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 20px;
     font-weight: 400;
     left: 53px;
@@ -424,7 +425,7 @@
   
   .custom-macbook-pro .custom-text-wrapper-11 {
     color: #001d6e;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 32px;
     font-weight: 700;
     left: 53px;
@@ -438,7 +439,7 @@
 
   .custom-macbook-pro .custom-text-wrapper-121 {
     color: #001d6e;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 32px;
     font-weight: 700;
     left: 53px;
@@ -469,7 +470,7 @@
   
   .custom-macbook-pro .custom-text-wrapper-12 {
     color: #000000;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 20px;
     font-weight: 400;
     left: 53px;
@@ -498,7 +499,7 @@
   
   .custom-macbook-pro .custom-nous-d-butons-par-un {
     color: #000000;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 20px;
     font-weight: 400;
     left: 53px;
@@ -511,7 +512,7 @@
   
   .custom-macbook-pro .custom-ils-sont {
     color: #000000;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 20px;
     font-weight: 400;
     left: 53px;
@@ -552,7 +553,7 @@
   
   .custom-macbook-pro .custom-text-wrapper-13 {
     color: #ffffff;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 25px;
     font-weight: 700;
     left: 568px;
@@ -575,7 +576,7 @@
   
   .custom-macbook-pro .custom-text-wrapper-14 {
     color: #ffffff;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 25px;
     font-weight: 700;
     height: 34px;
@@ -588,7 +589,7 @@
   
   .custom-macbook-pro .custom-text-wrapper-15 {
     color: #ffffff;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 25px;
     font-weight: 700;
     height: 34px;
@@ -600,7 +601,7 @@
   
   .custom-macbook-pro .custom-text-wrapper-16 {
     color: #ffffff;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 20px;
     font-weight: 600;
     left: 602px;
@@ -614,7 +615,7 @@
   
   .custom-macbook-pro .custom-text-wrapper-17 {
     color: #ffffff;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 25px;
     font-weight: 700;
     left: 568px;
@@ -627,7 +628,7 @@
   
   .custom-macbook-pro .custom-text-wrapper-18 {
     color: #ffffff;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 20px;
     font-weight: 600;
     left: 603px;
@@ -641,7 +642,7 @@
   
   .custom-macbook-pro .custom-text-wrapper-19 {
     color: #ffffff;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 20px;
     font-weight: 600;
     left: 603px;
@@ -655,7 +656,7 @@
   
   .custom-macbook-pro .custom-text-wrapper-20 {
     color: #ffffff;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 20px;
     font-weight: 600;
     left: 603px;
@@ -710,7 +711,7 @@
   
   .custom-macbook-pro .custom-text-wrapper-21 {
     color: #001d6e;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 32px;
     font-weight: 700;
     left: 48px;
@@ -732,7 +733,7 @@
   }
    .custom-text-wrapper-24 {
     color: #ffffff;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 25px;
     font-weight: 700;
     left: 568px;
@@ -755,7 +756,7 @@
   
    .custom-text-wrapper-25 {
     color: #ffffff;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 25px;
     font-weight: 700;
     height: 34px;
@@ -768,7 +769,7 @@
   
    .custom-text-wrapper-26 {
     color: #ffffff;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 25px;
     font-weight: 700;
     height: 34px;
@@ -780,7 +781,7 @@
   
    .custom-text-wrapper-27 {
     color: #ffffff;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 20px;
     font-weight: 600;
     left: 602px;
@@ -794,7 +795,7 @@
   
    .custom-text-wrapper-28 {
     color: #ffffff;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 25px;
     font-weight: 700;
     left: 568px;
@@ -807,7 +808,7 @@
   
    .custom-text-wrapper-29 {
     color: #ffffff;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 20px;
     font-weight: 600;
     left: 603px;
@@ -821,7 +822,7 @@
   
    .custom-text-wrapper-30 {
     color: #ffffff;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 20px;
     font-weight: 600;
     left: 603px;
@@ -835,7 +836,7 @@
   
    .custom-text-wrapper-31 {
     color: #ffffff;
-    font-family: "Inter", Helvetica;
+    font-family: "FutoSans-BoldItalic-☞", Helvetica;
     font-size: 20px;
     font-weight: 600;
     left: 603px;
