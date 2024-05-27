@@ -25,7 +25,7 @@ export const Expertise = () => {
             <div className="custom-text-wrapper-6">Nos secteurs d’expertise</div>
           </div>
           <div className="custom-logoprosec-wrapper">
-            <img className="custom-logoprosec" alt="Logoprosec" src="/img/logoprosec-2.png" />
+            <img className="custom-logoprosec" alt="Logoprosec" src="/img/logoprosec.png" />
           </div>
           <div  className="custom-text-wrapper-7">Sièges sociaux</div>
           <img className="custom-pexels-expect-best" alt="Pexels expect best" src="/img/siege.png" />

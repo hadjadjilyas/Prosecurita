@@ -67,7 +67,7 @@ export const MacbookPro = () => {
           <img className="img-4" alt="Img" src="/img/f3402f70a83abdbb14374b8794cfba31-1.png" />
         </div>
         <div className="logoprosec-wrapper">
-          <img className="logoprosec" alt="Logoprosec" src="/img/logoprosec-2.png" />
+          <img className="logoprosec" alt="Logoprosec" src="/img/logoprosec.png" />
         </div>
         <div className="overlap-2">
           <div className="navbar">
